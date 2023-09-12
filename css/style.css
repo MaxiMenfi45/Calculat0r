@@ -22,12 +22,12 @@ body{
     justify-content: center;
     width: 100%;
     height: 130px;            /*Properties of title*/
-    
+    border-bottom: 5px solid black;
 }
 
 .titleContainer>.titleChild{
     font-family: 'bits';
-    font-size: 30px;
+    font-size: 50px;
     padding: 20px;
 }
 
@@ -46,8 +46,8 @@ body{
 }
 .calculator > .containerCalc {
     display: flex;
-    flex-direction: column; /* Cambia la dirección a columna */
-    margin: 50px 550px 50px 550px;
+    flex-direction: column; 
+    margin: 50px 550px 50px 550px;      /*   results viewer properties */
     height: 600px;
     border: 10px solid rgb(0, 0, 0);
     border-radius: 40px;
@@ -66,7 +66,7 @@ body{
     max-width: 100%;
     height: 70px;
     font-family: 'calculator';
-    font-size: 75px;
+    font-size:90px;
     justify-self: flex-end;
     border-radius: 25px;
     padding: 20px;
@@ -76,7 +76,7 @@ body{
 }
 /*---------------------------------------------------------------*/
 
-.calculator>.containerCalc>.containerCalc{
+.containerCalc{
     display: flex;
     flex-direction: row;
 }
@@ -88,22 +88,25 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: center;                /*Buttons Propierties */
     gap: 1px;
+
 
 }
 
 .calculator>.containerCalc>.buttonsContainer>.buttonChild{
 
-    border: 2px solid red;
+    border: 2px solid black;
     height: 50px;
-    width: 150px;
+    width: 100px;
     font-size: 60px;
     padding: 10px;
     font-family:'calculator' ;
     border-radius: 10px;
-    text-align: right;
-    
-
+    background-color:#ECEE81;
+    text-align:center;
+    margin: 10px;
 }
 
+
+/*---------------------------------------------------------------*/
